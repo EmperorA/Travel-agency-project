@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: #ffff;
+}
+.topBar {
+  background-color: rgb(37, 37, 105);
+  color: rgb(205, 201, 201);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.sideBar_btn {
+  color: rgb(205, 201, 201);
+  background-color: rgb(37, 37, 105);
+}
+.sideBar_icon {
+  height: 0.6rem;
+  width: 0.6rem;
+  fill: orange;
+  padding-right: 0.1rem;
+}
+.customerCare {
+  padding-right: 0.3rem;
+}
+
+.header {
+  padding: 1rem 0;
+  justify-content: space-around;
+}
+.agency_title {
+  color: blue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 0.1;
+}
+.agencyText {
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.7rem;
+}
+.headerlinks {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.5rem;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Todays deal  */
+.todays-deal {
+  background-color: rgb(246, 237, 237);
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  padding-bottom: 2rem;
+}
+.todays-deal-div {
+  border: 1px solid;
+  height: 28rem;
+  width: 66%;
+  border-width: 0;
+}
+.todays-deal-heading {
+  color: darkblue;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.todays-deal-img {
+  height: 25rem;
+  max-width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+.todays-deal-info {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+.todays-deal-text {
+  color: blue;
+  font-weight: 700;
+}
+
+.todays-deal-date {
+  font-size: 0.7rem;
+}
+
+/* search */
+.search-Bar {
+  text-align: center;
+  padding: 5rem;
+  background-image: url(images/vacation.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 20rem;
+}
+.titleDiv {
+  color: #ffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  padding: 1.6rem 0;
+}
+.title {
+  font-weight: 900;
+  line-height: 0.9;
+}
+.findHotel {
+  line-height: 0.2;
+}
+.inputBar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.4rem;
+  background-color: rgb(37, 37, 105);
+}
+.input_check {
+  text-align: left;
+}
+.checkin {
+  font-size: 0.5rem;
+  line-height: 0.1px;
+}
+.inputBar_check {
+  align-items: center;
+}
+.inputBar_check ::placeholder{
+    font-size: 0.7rem;
+}
+.text__input {
+  width: 4rem;
+  height: 1.6rem;
+  outline: none;
+}
+.dropdown_icon {
+  border: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.calendar_icon {
+  fill: orange;
+  height: 1rem;
+  width: 1rem;
+}
+.input_icon {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.findRooms {
+  color: #ffff;
+  font-size: 0.7rem;
+  font-weight: bold;
+  position: relative;
+  top: 45%;
+  right: 2%;
+  text-align: center;
+}
+/* recommendation */
+.last-minute {
+  padding: 2rem 0;
+  background-color: rgb(240, 234, 234);
+}
+.last-minute-heading {
+  color: darkblue;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.last-minute-div {
+  background-color: rgb(240, 234, 234);
+  display: flex;
+  justify-content: space-evenly;
+}
+.last-minute-card {
+  border-width: 0;
+  padding: 0;
+  margin: 0.5rem;
+  min-width: 12rem;
+}
+.card-img-top {
+  height: 7rem;
+}
+.last-minute-card-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+.last-minute-card-heading {
+  color: blue;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.last-minute-card-date {
+  color: #000;
+  font-size: 0.6rem;
+  line-height: 1;
+}
+.last-minute-calendar_icon {
+  fill: grey;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+/* top recommendation */
+
+.recommendation {
+  display: flex;
+  flex-direction: column;
+}
+.recommendation-heading {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.5rem 1rem 0 0;
+  text-decoration: underline;
+
+  color: darkblue;
+}
+
+.top-recommendation {
+  min-height: 12rem;
+  min-width: 12rem;
+}
+.recommendation-text {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  top: 80%;
+}
+
+.barcelona {
+  background-image: url(images/barcelona.jpg);
+  background-size: cover;
+}
+.paris {
+  background-image: url(images/Paris.jpg);
+  background-size: cover;
+}
+
+.london {
+  background-image: url(images/london.jpg);
+  background-size: cover;
+}
+.seoul {
+  background-image: url(images/seoul.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.santorini {
+  background-image: url(images/santorini.jpg);
+  background-size: cover;
+}
+.newyork {
+  background-image: url(images/newyork.jpg);
+  background-size: cover;
+}
+.czech {
+  background-image: url(images/czech.jpg);
+  background-size: cover;
+}
+.maldives {
+  background-image: url(images/maldives.jpg);
+  background-size: cover;
+}
+
+/* testimonials */
+
+.user-reviews {
+  color: rgb(118, 110, 110);
+  display: flex;
+justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.review {
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  padding: 3rem;
+
+  position: relative;
+  overflow: hidden;
+}
+@media only screen and (max-width: 900px) {
+  .review {
+    margin-bottom: 1rem;
+    padding: 2rem;
+  }
+}
+
+.review_text {
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
+  z-index: 10;
+  position: relative;
+}
+.review_user {
+  display: flex;
+  align-items: center;
+}
+.review_user_box {
+  margin-right: auto;
+}
+.review_user_name {
+  font-size: 1rem;
+  font-weight: 600;
+
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+.review_user_date {
+  font-size: 0.7rem;
+  color: lightgray;
+}
+.review_rating {
+  color: red;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.review_photo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.review::before {
+  content: "\201C";
+  position: absolute;
+  top: -2.75rem;
+  left: -1rem;
+  line-height: 1;
+  font-size: 20rem;
+  color: rgb(241, 240, 240);
+  font-family: sans-serif;
+  z-index: 1;
+}
+
+/* btn inline */
+.btn-inline {
+  border: none;
+  color: red;
+  font-size: inherit;
+  border-bottom: 1px solid red;
+  padding-bottom: 2px;
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 2rem;
+  position: relative;
+  left: 50%;
+}
+.btn-inline span {
+  margin-left: 3px;
+  transition: margin-left 0.2s;
+}
+.btn-inline:hover {
+  color: darkblue;
+}
+.btn-inline:hover span {
+  margin-left: 8px;
+}
+.btn-inline:focus {
+  outline: none;
+  animation: pulsate 1s infinite;
+}
+/* footer  */
+.footer {
+  background-color: rgb(41, 41, 78);
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 3rem 1rem 3rem;
+}
+.footer-div1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-agency_title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.footer-agency-text {
+  font-size: 0.5rem;
+  line-height: 0.1;
+}
+.footer-social-media-icon {
+  height: 1rem;
+  width: 1rem;
+  fill: rgb(114, 109, 98);
+}
+.copyright {
+  font-size: 0.5rem;
+  padding: 1rem 0;
+}
+.footer-copyright-icon {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+.email-subscription {
+  display: flex;
+  flex-direction: column;
+  /* padding: 1rem 6rem; */
+}
+.never-miss {
+  font-size: 0.6rem;
+  color: lightgrey;
+  text-transform: uppercase;
+}
+.subscribe {
+  align-items: center;
+}
+.email-box {
+  height: 1.6rem;
+  width: 8rem;
+  outline: none;
+  background-color: aliceblue;
+}
+.submit {
+  color: lightgray;
+  font-size: 0.6rem;
+  font-weight: 700;
+  height: 1.4rem;
+  background-color: orange;
+  border: 0;
+  padding: 0.3rem;
+  text-transform: uppercase;
+}
+.footerlinks-div {
+  padding-top: 1.7rem;
+}
+.footer-links {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: lightgrey;
+}
